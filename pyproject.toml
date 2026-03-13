@@ -8,6 +8,10 @@ dependencies = [
     "cadquery>=2.5.2",
     "datasets>=3.6.0",
     "ipykernel>=6.29.5",
+    "Pillow>=10.0.0",
     "scipy>=1.15.3",
+    "tqdm>=4.66.0",
     "trimesh>=4.6.11",
+    "mlx-vlm>=0.1.18",
+    "mlx>=0.18.0",
 ]
