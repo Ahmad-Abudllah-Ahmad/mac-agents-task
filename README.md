@@ -25,7 +25,7 @@ graph TD
 ```mermaid
 sequenceDiagram
     participant User
-    participant Model as Qwen2-VL (MLX)
+    participant Model as "Qwen2-VL (MLX)"
     participant Post as Code Healer
     participant Eval as Metric Engine
 
@@ -72,14 +72,14 @@ graph TD
 flowchart LR
     A[Variable Definitions] --> B[Workplane Initialization]
     B --> C[Geometry Chaining]
-    C --> D[Feature Addition (Holes/Fillets)]
+    C --> D["Feature Addition (Holes/Fillets)"]
     D --> E[Result Assignment]
 ```
 
 ### 7. Code Healing Strategy
 ```mermaid
 graph TD
-    A[Raw LLM Output] --> B{Check 'result' variable}
+    A[Raw LLM Output] --> B{"Check 'result' variable"}
     B -->|Missing| C[Prepend/Append Assignment]
     B -->|Found| D{Check Imports}
     D -->|Missing| E[Add 'cadquery as cq']
