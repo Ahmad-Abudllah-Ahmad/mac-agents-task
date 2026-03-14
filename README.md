@@ -1,10 +1,10 @@
-# 🚀 CadQuery Code Generation Agent (Mac Agents Task)
+# CadQuery Code Generation Agent (Mac Agents Task)
 
 This repository contains the implementation of a sophisticated Vision-Language Model (VLM) pipeline designed to generate CadQuery code from 2D images. The project demonstrates a transition from a baseline zero-shot approach to a highly optimized, few-shot, and constraint-engineered system.
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 The following diagrams illustrate the core flows and logic within the system.
 
@@ -116,7 +116,7 @@ graph LR
 
 ---
 
-## 📊 Model Performance & Accuracy
+## Model Performance & Accuracy
 
 ### Model Comparison Summary
 
@@ -147,7 +147,7 @@ Intersection Over Union (IOU) measures the geometric similarity between generate
 
 ---
 
-## 📋 Comprehensive Data Tables
+## Comprehensive Data Tables
 
 ### Table 1: Environment Specifications
 | Component | Specification |
@@ -201,7 +201,7 @@ Intersection Over Union (IOU) measures the geometric similarity between generate
 
 ---
 
-## 🛠️ Getting Started
+## Getting Started
 
 1.  **Install uv**: Ensure you have `uv` installed.
 2.  **Sync Environment**:
@@ -223,7 +223,7 @@ Intersection Over Union (IOU) measures the geometric similarity between generate
 
 ---
 
-## 📈 Prediction & Evaluation Details
+## Prediction & Evaluation Details
 
 - **VSR Details**: Evaluated by executing the script in a localized `exec()` sandbox and catching `SyntaxError` and `NameError`.
 - **IOU Details**: Computed by voxelizing the generated STL and the ground truth, followed by a bitwise intersection check.
