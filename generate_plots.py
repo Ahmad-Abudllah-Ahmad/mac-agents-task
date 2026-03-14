@@ -69,7 +69,7 @@ def create_plots():
     plt.legend(fontsize=11)
     plt.grid(True, linestyle=':', alpha=0.6)
     plt.annotate('90% Accuracy Reached', xy=(145, 0.1), xytext=(110, 0.25),
-                 arrowprops=dict(facecolor='black', shrink=0.05, width=1, headwidth=5))
+                 arrowprops={"facecolor": "black", "shrink": 0.05, "width": 1, "headwidth": 5})
     
     plt.tight_layout()
     plt.savefig("results/model_training_loss.png", dpi=300)
