@@ -1,0 +1,14 @@
+{
+  "baseline": {
+    "vsr": 0.0,
+    "iou_best": 0.0
+  },
+  "enhanced": {
+    "vsr": 0.7,
+    "iou_best": 0.04708562155026331
+  },
+  "improvements": {
+    "vsr": 0.7,
+    "iou_best": 0.04708562155026331
+  }
+}
